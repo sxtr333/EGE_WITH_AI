@@ -1,0 +1,191 @@
+[
+  {
+    "category_id": "79",
+    "topic": "1",
+    "name": "Решение прямоугольного треугольника",
+    "expected": 50,
+    "got": 50,
+    "ok": true,
+    "figs": 50
+  },
+  {
+    "category_id": "90",
+    "topic": "1",
+    "name": "Решение равнобедренного треугольника",
+    "expected": 51,
+    "got": 51,
+    "ok": true,
+    "figs": 44
+  },
+  {
+    "category_id": "96",
+    "topic": "1",
+    "name": "Треугольники общего вида",
+    "expected": 26,
+    "got": 26,
+    "ok": true,
+    "figs": 21
+  },
+  {
+    "category_id": "102",
+    "topic": "1",
+    "name": "Параллелограммы",
+    "expected": 35,
+    "got": 35,
+    "ok": true,
+    "figs": 29
+  },
+  {
+    "category_id": "94",
+    "topic": "1",
+    "name": "Трапеция",
+    "expected": 27,
+    "got": 27,
+    "ok": true,
+    "figs": 26
+  },
+  {
+    "category_id": "111",
+    "topic": "1",
+    "name": "Центральные и вписанные углы",
+    "expected": 16,
+    "got": 16,
+    "ok": true,
+    "figs": 12
+  },
+  {
+    "category_id": "112",
+    "topic": "1",
+    "name": "Касательная, хорда, секущая",
+    "expected": 11,
+    "got": 11,
+    "ok": true,
+    "figs": 11
+  },
+  {
+    "category_id": "113",
+    "topic": "1",
+    "name": "Вписанные окружности",
+    "expected": 24,
+    "got": 24,
+    "ok": true,
+    "figs": 24
+  },
+  {
+    "category_id": "114",
+    "topic": "1",
+    "name": "Описанные окружности",
+    "expected": 30,
+    "got": 30,
+    "ok": true,
+    "figs": 29
+  },
+  {
+    "category_id": "182",
+    "topic": "2",
+    "name": "Векторы и операции с ними",
+    "expected": 58,
+    "got": 58,
+    "ok": true,
+    "figs": 45
+  },
+  {
+    "category_id": "192",
+    "topic": "3",
+    "name": "Куб",
+    "expected": 15,
+    "got": 15,
+    "ok": true,
+    "figs": 14
+  },
+  {
+    "category_id": "193",
+    "topic": "3",
+    "name": "Прямоугольный параллелепипед",
+    "expected": 33,
+    "got": 33,
+    "ok": true,
+    "figs": 25
+  },
+  {
+    "category_id": "180",
+    "topic": "3",
+    "name": "Элементы составных многогранников",
+    "expected": 15,
+    "got": 15,
+    "ok": true,
+    "figs": 15
+  },
+  {
+    "category_id": "148",
+    "topic": "3",
+    "name": "Площадь поверхности составного многогранника",
+    "expected": 18,
+    "got": 18,
+    "ok": true,
+    "figs": 18
+  },
+  {
+    "category_id": "140",
+    "topic": "3",
+    "name": "Объем составного многогранника",
+    "expected": 17,
+    "got": 17,
+    "ok": true,
+    "figs": 17
+  },
+  {
+    "category_id": "178",
+    "topic": "3",
+    "name": "Призма",
+    "expected": 52,
+    "got": 52,
+    "ok": true,
+    "figs": 49
+  },
+  {
+    "category_id": "177",
+    "topic": "3",
+    "name": "Пирамида",
+    "expected": 69,
+    "got": 69,
+    "ok": true,
+    "figs": 52
+  },
+  {
+    "category_id": "197",
+    "topic": "3",
+    "name": "Комбинации тел",
+    "expected": 42,
+    "got": 42,
+    "ok": true,
+    "figs": 39
+  },
+  {
+    "category_id": "194",
+    "topic": "3",
+    "name": "Цилиндр",
+    "expected": 17,
+    "got": 17,
+    "ok": true,
+    "figs": 15
+  },
+  {
+    "category_id": "144",
+    "topic": "3",
+    "name": "Конус",
+    "expected": 28,
+    "got": 28,
+    "ok": true,
+    "figs": 26
+  },
+  {
+    "category_id": "151",
+    "topic": "3",
+    "name": "Шар",
+    "expected": 9,
+    "got": 9,
+    "ok": true,
+    "figs": 8
+  }
+]

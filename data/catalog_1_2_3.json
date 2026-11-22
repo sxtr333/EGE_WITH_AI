@@ -1,0 +1,104 @@
+[
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "categories": [
+      {
+        "category_id": "79",
+        "category_name": "Решение прямоугольного треугольника"
+      },
+      {
+        "category_id": "90",
+        "category_name": "Решение равнобедренного треугольника"
+      },
+      {
+        "category_id": "96",
+        "category_name": "Треугольники общего вида"
+      },
+      {
+        "category_id": "102",
+        "category_name": "Параллелограммы"
+      },
+      {
+        "category_id": "94",
+        "category_name": "Трапеция"
+      },
+      {
+        "category_id": "111",
+        "category_name": "Центральные и вписанные углы"
+      },
+      {
+        "category_id": "112",
+        "category_name": "Касательная, хорда, секущая"
+      },
+      {
+        "category_id": "113",
+        "category_name": "Вписанные окружности"
+      },
+      {
+        "category_id": "114",
+        "category_name": "Описанные окружности"
+      }
+    ]
+  },
+  {
+    "topic_id": "2",
+    "topic_name": " Векторы",
+    "categories": [
+      {
+        "category_id": "182",
+        "category_name": "Векторы и операции с ними"
+      }
+    ]
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "categories": [
+      {
+        "category_id": "192",
+        "category_name": "Куб"
+      },
+      {
+        "category_id": "193",
+        "category_name": "Прямоугольный параллелепипед"
+      },
+      {
+        "category_id": "180",
+        "category_name": "Элементы составных многогранников"
+      },
+      {
+        "category_id": "148",
+        "category_name": "Площадь поверхности  составного многогранника"
+      },
+      {
+        "category_id": "140",
+        "category_name": "Объем составного многогранника"
+      },
+      {
+        "category_id": "178",
+        "category_name": "Призма"
+      },
+      {
+        "category_id": "177",
+        "category_name": "Пирамида"
+      },
+      {
+        "category_id": "197",
+        "category_name": "Комбинации тел"
+      },
+      {
+        "category_id": "194",
+        "category_name": "Цилиндр"
+      },
+      {
+        "category_id": "144",
+        "category_name": "Конус"
+      },
+      {
+        "category_id": "151",
+        "category_name": "Шар"
+      }
+    ]
+  }
+]

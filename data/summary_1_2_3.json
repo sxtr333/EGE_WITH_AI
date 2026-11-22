@@ -1,0 +1,170 @@
+[
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "79",
+    "category_name": "Решение прямоугольного треугольника",
+    "n": 50,
+    "file": "data/raw/t1_c79.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "90",
+    "category_name": "Решение равнобедренного треугольника",
+    "n": 51,
+    "file": "data/raw/t1_c90.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "96",
+    "category_name": "Треугольники общего вида",
+    "n": 26,
+    "file": "data/raw/t1_c96.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "102",
+    "category_name": "Параллелограммы",
+    "n": 35,
+    "file": "data/raw/t1_c102.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "94",
+    "category_name": "Трапеция",
+    "n": 27,
+    "file": "data/raw/t1_c94.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "111",
+    "category_name": "Центральные и вписанные углы",
+    "n": 16,
+    "file": "data/raw/t1_c111.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "112",
+    "category_name": "Касательная, хорда, секущая",
+    "n": 11,
+    "file": "data/raw/t1_c112.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "113",
+    "category_name": "Вписанные окружности",
+    "n": 24,
+    "file": "data/raw/t1_c113.json"
+  },
+  {
+    "topic_id": "1",
+    "topic_name": "Планиметрия",
+    "category_id": "114",
+    "category_name": "Описанные окружности",
+    "n": 30,
+    "file": "data/raw/t1_c114.json"
+  },
+  {
+    "topic_id": "2",
+    "topic_name": "Векторы",
+    "category_id": "182",
+    "category_name": "Векторы и операции с ними",
+    "n": 58,
+    "file": "data/raw/t2_c182.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "192",
+    "category_name": "Куб",
+    "n": 15,
+    "file": "data/raw/t3_c192.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "193",
+    "category_name": "Прямоугольный параллелепипед",
+    "n": 33,
+    "file": "data/raw/t3_c193.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "180",
+    "category_name": "Элементы составных многогранников",
+    "n": 15,
+    "file": "data/raw/t3_c180.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "148",
+    "category_name": "Площадь поверхности  составного многогранника",
+    "n": 18,
+    "file": "data/raw/t3_c148.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "140",
+    "category_name": "Объем составного многогранника",
+    "n": 17,
+    "file": "data/raw/t3_c140.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "178",
+    "category_name": "Призма",
+    "n": 52,
+    "file": "data/raw/t3_c178.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "177",
+    "category_name": "Пирамида",
+    "n": 69,
+    "file": "data/raw/t3_c177.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "197",
+    "category_name": "Комбинации тел",
+    "n": 42,
+    "file": "data/raw/t3_c197.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "194",
+    "category_name": "Цилиндр",
+    "n": 17,
+    "file": "data/raw/t3_c194.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "144",
+    "category_name": "Конус",
+    "n": 28,
+    "file": "data/raw/t3_c144.json"
+  },
+  {
+    "topic_id": "3",
+    "topic_name": "Стереометрия",
+    "category_id": "151",
+    "category_name": "Шар",
+    "n": 9,
+    "file": "data/raw/t3_c151.json"
+  }
+]

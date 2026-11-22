@@ -1,0 +1,831 @@
+[
+  {
+    "id": "27663",
+    "condition": "Найдите длину вектора ⟦\\veca левая круглая скобка 6; 8 правая круглая скобка .⟧",
+    "solution": "Решение rule_info . Длина вектора определяется следующим выражением: ⟦корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = 10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = 10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=27663"
+  },
+  {
+    "id": "27664",
+    "condition": "Найдите квадрат длины вектора ⟦\\overrightarrowAB.⟧",
+    "solution": "Решение rule_info . Найдем длину вектора ⟦\\overrightarrowAB:⟧ ⟦корень из: начало аргумента: левая круглая скобка 8 минус 2 правая круглая скобка в квадрате плюс левая круглая скобка 6 минус 4 правая круглая скобка в квадрате конец аргумента = корень из: начало аргумента: 40 конец аргумента .⟧ Следовательно, квадрат длины вектора ⟦\\overrightarrowAB⟧ равен 40. Ответ: 40. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB:",
+      "корень из: начало аргумента: левая круглая скобка 8 минус 2 правая круглая скобка в квадрате плюс левая круглая скобка 6 минус 4 правая круглая скобка в квадрате конец аргумента = корень из: начало аргумента: 40 конец аргумента .",
+      "\\overrightarrowAB"
+    ],
+    "answer": "Ответ: 40",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256716",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27664",
+    "figure_path": "data/figures/t2_c182/27664.svg"
+  },
+  {
+    "id": "27707",
+    "condition": "Две стороны прямоугольника ABCD равны 6 и 8. Найдите длину вектора ⟦\\overrightarrowAC.⟧",
+    "solution": "Решение rule_info . Вектор ⟦\\overrightarrowAC⟧ является диагональю прямоугольника. По теореме Пифагора из треугольника ADC получаем: ⟦AC = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAC",
+      "AC = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256787",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27707",
+    "figure_path": "data/figures/t2_c182/27707.svg"
+  },
+  {
+    "id": "27708",
+    "condition": "Две стороны прямоугольника ABCD равны 6 и 8. Найдите длину суммы векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAD.⟧",
+    "solution": "Решение rule_info . Сумма векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAD⟧ равна вектору ⟦\\overrightarrowAC.⟧ Вектор ⟦\\overrightarrowAC⟧ делит прямоугольник на два прямоугольных треугольника. Следовательно, по теореме Пифагора получаем: ⟦AC = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB",
+      "\\overrightarrowAD",
+      "\\overrightarrowAC.",
+      "\\overrightarrowAC",
+      "AC = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256789",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27708",
+    "figure_path": "data/figures/t2_c182/27708.svg"
+  },
+  {
+    "id": "27709",
+    "condition": "Две стороны прямоугольника ABCD равны 6 и 8. Найдите длину разности векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAD.⟧",
+    "solution": "Решение rule_info . Разность векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAD⟧ равна вектору ⟦\\overrightarrowDB.⟧ Вектор ⟦\\overrightarrowDB⟧ делит прямоугольник на два прямоугольных треугольника. Следовательно, по теореме Пифагора получаем: ⟦DB = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB",
+      "\\overrightarrowAD",
+      "\\overrightarrowDB.",
+      "\\overrightarrowDB",
+      "DB = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256789",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27709",
+    "figure_path": "data/figures/t2_c182/27709.svg"
+  },
+  {
+    "id": "27710",
+    "condition": "Две стороны прямоугольника ABCD равны 6 и 8. Найдите скалярное произведение векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAD.⟧",
+    "solution": "Решение rule_info . Скалярное произведение двух векторов равно произведению их длин на косинус угла между ними. Косинус прямого угла равен нулю, поэтому и искомое скалярное произведение равно нулю. Ответ: 0. rule_body",
+    "formulas_raw": [],
+    "answer": "Ответ: 0",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256789",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27710",
+    "figure_path": "data/figures/t2_c182/27710.svg"
+  },
+  {
+    "id": "27711",
+    "condition": "Две стороны изображенного на рисунке прямоугольника ABCD равны 6 и 8. Диагонали пересекаются в точке O . Найдите длину суммы векторов ⟦\\overrightarrowAO⟧ и ⟦\\overrightarrowDO.⟧",
+    "solution": "Решение rule_info . Сумма векторов ⟦\\overrightarrowAO⟧ и ⟦\\overrightarrowDO⟧ равна вектору ⟦\\overrightarrowAB.⟧ Его длина равна 6. Ответ: 6. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAO",
+      "\\overrightarrowDO",
+      "\\overrightarrowAB."
+    ],
+    "answer": "Ответ: 6",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256801",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27711",
+    "figure_path": "data/figures/t2_c182/27711.svg"
+  },
+  {
+    "id": "27712",
+    "condition": "Две стороны изображенного на рисунке прямоугольника ABCD равны 6 и 8. Диагонали пересекаются в точке O . Найдите длину разности векторов ⟦\\overrightarrowAO⟧ и ⟦\\overrightarrowDO.⟧",
+    "solution": "Решение rule_info . Разность векторов ⟦\\overrightarrowAO⟧ и ⟦\\overrightarrowDO⟧ равна вектору ⟦\\overrightarrowAD.⟧ Длина вектора ⟦\\overrightarrowAD⟧ равна 8. Ответ: 8. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAO",
+      "\\overrightarrowDO",
+      "\\overrightarrowAD.",
+      "\\overrightarrowAD"
+    ],
+    "answer": "Ответ: 8",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256801",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27712",
+    "figure_path": "data/figures/t2_c182/27712.svg"
+  },
+  {
+    "id": "27713",
+    "condition": "Диагонали ромба ABCD равны 12 и 16. Найдите длину вектора ⟦\\overrightarrowAD.⟧",
+    "solution": "Решение rule_info . Диагонали ромба пересекаются под прямым углом и точкой пересечения делятся пополам. Следовательно, вектор ⟦\\overrightarrowAD⟧ является гипотенузой прямоугольного треугольника, катеты которого равны половинам диагоналей. По теореме Пифагора получаем: ⟦AD = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAD",
+      "AD = корень из: начало аргумента: 6 в квадрате плюс 8 в квадрате конец аргумента = корень из: начало аргумента: 100 конец аргумента = 10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256879",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27713",
+    "figure_path": "data/figures/t2_c182/27713.svg"
+  },
+  {
+    "id": "27714",
+    "condition": "Диагонали изображенного на рисунке ромба ABCD равны 12 и 16. Найдите длину вектора ⟦\\overrightarrowAB плюс \\overrightarrowAD.⟧",
+    "solution": "Решение rule_info . Сумма векторов ⟦\\overrightarrowAB плюс \\overrightarrowAD⟧ равна вектору ⟦\\overrightarrowAC.⟧ Длина вектора ⟦\\overrightarrowAC⟧ равна 16. Ответ: 16. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB плюс \\overrightarrowAD",
+      "\\overrightarrowAC.",
+      "\\overrightarrowAC"
+    ],
+    "answer": "Ответ: 16",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256949",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27714",
+    "figure_path": "data/figures/t2_c182/27714.svg"
+  },
+  {
+    "id": "27715",
+    "condition": "Диагонали изображенного на рисунке ромба ABCD равны 12 и 16. Найдите длину вектора ⟦\\overrightarrowAB минус \\overrightarrowAD.⟧",
+    "solution": "Решение rule_info . Разность векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAD⟧ равна вектору ⟦\\overrightarrowDB.⟧ Длина вектора ⟦\\overrightarrowDB⟧ равна 12. Ответ: 12. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB",
+      "\\overrightarrowAD",
+      "\\overrightarrowDB.",
+      "\\overrightarrowDB"
+    ],
+    "answer": "Ответ: 12",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=256949",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27715",
+    "figure_path": "data/figures/t2_c182/27715.svg"
+  },
+  {
+    "id": "27716",
+    "condition": "Диагонали ромба ABCD равны 12 и 16. Найдите длину вектора ⟦\\overrightarrowAB минус \\overrightarrowAC.⟧",
+    "solution": "Решение rule_info . Разность векторов ⟦\\overrightarrowAB минус \\overrightarrowAC⟧ равна вектору ⟦\\overrightarrowCB.⟧ Диагонали ромба перпендикулярны и точкой пересечения делятся пополам. Пусть O — точка пересечения диагоналей. Вектор ⟦\\overrightarrowCB⟧ является гипотенузой в прямоугольном треугольнике ⟦BOC.⟧ Поэтому ⟦\\overset\\mathopCB= корень из: начало аргумента: 8 конец аргумента в квадрате плюс 6 в квадрате =10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB минус \\overrightarrowAC",
+      "\\overrightarrowCB.",
+      "\\overrightarrowCB",
+      "BOC.",
+      "\\overset\\mathopCB= корень из: начало аргумента: 8 конец аргумента в квадрате плюс 6 в квадрате =10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143414",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27716",
+    "figure_path": "data/figures/t2_c182/27716.svg"
+  },
+  {
+    "id": "27717",
+    "condition": "Диагонали ромба ABCD пересекаются в точке O и равны 12 и 16. Найдите длину вектора ⟦\\overrightarrowAO плюс \\overrightarrowBO.⟧",
+    "solution": "Решение rule_info . Сумма векторов ⟦\\overrightarrowAO⟧ + ⟦\\overrightarrowBO⟧ равна вектору ⟦\\overrightarrowAD.⟧ Поскольку ABCD — ромб, его диагонали пересекаются под прямым углом, значит, ⟦AD= корень из: начало аргумента: AO в степени левая круглая скобка 2 конец аргумента плюс OD в квадрате правая круглая скобка = дробь: числитель: 1, знаменатель: 2 конец дроби корень из: начало аргумента: AC в степени левая круглая скобка 2 конец аргумента плюс BD в квадрате правая круглая скобка = дробь: числитель: 1, знаменатель: 2 конец дроби корень из: начало аргумента: 256 плюс 144 конец аргумента =10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAO",
+      "\\overrightarrowBO",
+      "\\overrightarrowAD.",
+      "AD= корень из: начало аргумента: AO в степени левая круглая скобка 2 конец аргумента плюс OD в квадрате правая круглая скобка = дробь: числитель: 1, знаменатель: 2 конец дроби корень из: начало аргумента: AC в степени левая круглая скобка 2 конец аргумента плюс BD в квадрате правая круглая скобка = дробь: числитель: 1, знаменатель: 2 конец дроби корень из: начало аргумента: 256 плюс 144 конец аргумента =10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143415",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27717",
+    "figure_path": "data/figures/t2_c182/27717.svg"
+  },
+  {
+    "id": "27718",
+    "condition": "Диагонали ромба ABCD пересекаются в точке O и равны 12 и 16. Найдите длину вектора ⟦\\overrightarrowAO минус \\overrightarrowBO.⟧",
+    "solution": "Решение rule_info . Разность векторов ⟦\\overrightarrowAO⟧ и ⟦\\overrightarrowBO⟧ равна вектору ⟦\\overrightarrowAB.⟧ Диагонали ромба пересекаются под прямым углом и точкой пересечения делятся пополам. Тогда вектор ⟦\\overrightarrowAB⟧ является гипотенузой в прямоугольном треугольнике. По теореме Пифагора получаем, что ⟦\\overset\\mathopAB= корень из: начало аргумента: 8 конец аргумента в квадрате плюс 6 в квадрате =10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAO",
+      "\\overrightarrowBO",
+      "\\overrightarrowAB.",
+      "\\overrightarrowAB",
+      "\\overset\\mathopAB= корень из: начало аргумента: 8 конец аргумента в квадрате плюс 6 в квадрате =10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143415",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27718",
+    "figure_path": "data/figures/t2_c182/27718.svg"
+  },
+  {
+    "id": "27719",
+    "condition": "Диагонали ромба ABCD пересекаются в точке O и равны 12 и 16. Найдите скалярное произведение векторов ⟦\\overrightarrowAO⟧ и ⟦\\overrightarrowBO.⟧",
+    "solution": "Решение rule_info . Скалярное произведение двух векторов равно произведению их длин на косинус угла между ними. Диагонали в ромбе перпендикулярны. Поскольку косинус прямого угла равен нулю, то и скалярное произведение тоже равно нулю. Ответ: 0. rule_body",
+    "formulas_raw": [],
+    "answer": "Ответ: 0",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143415",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27719",
+    "figure_path": "data/figures/t2_c182/27719.svg"
+  },
+  {
+    "id": "27720",
+    "condition": "Стороны правильного треугольника ABC равны ⟦2 корень из: начало аргумента: 3 конец аргумента .⟧ Найдите длину вектора ⟦\\overrightarrowAB плюс \\overrightarrowAC.⟧",
+    "solution": "Решение rule_info . Достраиваем треугольник до ромба. Поскольку ⟦\\overrightarrowAB плюс \\overrightarrowAC = \\overrightarrowAD,⟧ необходимо найти длину большей диагонали ромба, равную удвоенной длине медианы равностороннего треугольника ABC . Таким образом, имеем: ⟦AD = 2 умножить на дробь: числитель: AB корень из: начало аргумента: 3 конец аргумента , знаменатель: 2 конец дроби = 6.⟧ Ответ: 6. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB плюс \\overrightarrowAC = \\overrightarrowAD,",
+      "AD = 2 умножить на дробь: числитель: AB корень из: начало аргумента: 3 конец аргумента , знаменатель: 2 конец дроби = 6."
+    ],
+    "answer": "Ответ: 6",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=145723",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27720",
+    "figure_path": "data/figures/t2_c182/27720.svg"
+  },
+  {
+    "id": "27721",
+    "condition": "Стороны правильного треугольника ABC равны 3. Найдите длину вектора ⟦\\overrightarrowAB минус \\overrightarrowAC.⟧",
+    "solution": "Решение rule_info . Разность ⟦\\overrightarrowAB минус \\overrightarrowAC⟧ равна вектору ⟦\\overrightarrowCB.⟧ Длина вектора ⟦\\overrightarrowCB=3.⟧ Ответ: 3. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB минус \\overrightarrowAC",
+      "\\overrightarrowCB.",
+      "\\overrightarrowCB=3."
+    ],
+    "answer": "Ответ: 3",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=145723",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27721",
+    "figure_path": "data/figures/t2_c182/27721.svg"
+  },
+  {
+    "id": "27722",
+    "condition": "Стороны правильного треугольника ABC равны 3. Найдите скалярное произведение векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAC.⟧",
+    "solution": "Решение rule_info . Скалярное произведение двух векторов равно произведению их длин на косинус угла между ними. Углы в правильном треугольнике равны ⟦60 градусов.⟧ Поэтому скалярное произведение равно ⟦3 умножить на 3 умножить на косинус 60 градусов=4,5.⟧ Ответ: 4,5. rule_body",
+    "formulas_raw": [
+      "60 градусов.",
+      "3 умножить на 3 умножить на косинус 60 градусов=4,5."
+    ],
+    "answer": "Ответ: 4,5",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=145723",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27722",
+    "figure_path": "data/figures/t2_c182/27722.svg"
+  },
+  {
+    "id": "27723",
+    "condition": "Найдите сумму координат вектора ⟦\\overrightarrowAB.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Вектор ⟦\\overrightarrowAB⟧ имеет координаты ⟦левая круглая скобка 8 минус 2;6 минус 4 правая круглая скобка = левая круглая скобка 6;2 правая круглая скобка .⟧ Поэтому сумма координат вектора ⟦\\overrightarrowAB⟧ равна 8. Ответ: 8. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB",
+      "левая круглая скобка 8 минус 2;6 минус 4 правая круглая скобка = левая круглая скобка 6;2 правая круглая скобка .",
+      "\\overrightarrowAB"
+    ],
+    "answer": "Ответ: 8",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143478",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27723",
+    "figure_path": "data/figures/t2_c182/27723.svg"
+  },
+  {
+    "id": "27724",
+    "condition": "Вектор ⟦\\overrightarrowAB⟧ с началом в точке A (2; 4) имеет координаты (6; 2). Найдите абсциссу точки B .",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Пусть точка B имеет координаты ( x ; y ). Тогда x − 2 = 6. Откуда абсцисса точки B равна 8. Ответ: 8. rule_body",
+    "formulas_raw": [],
+    "answer": "Ответ: 8",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143479",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27724",
+    "figure_path": "data/figures/t2_c182/27724.svg"
+  },
+  {
+    "id": "27725",
+    "condition": "Вектор ⟦\\overrightarrowAB⟧ с началом в точке A (2; 4) имеет координаты (6; 2). Найдите ординату точки B .",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Вектор ⟦\\overrightarrowAB⟧ имеет координаты ⟦левая круглая скобка 6; 2 правая круглая скобка ,⟧ поэтому легко вычислить координаты точки B . Следовательно, точка B имеет координаты ⟦x минус 2 = 6,⟧ ⟦y минус 4 = 2,⟧ то есть ⟦x = 8,⟧ ⟦y = 6.⟧ Ответ: 6. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowAB",
+      "левая круглая скобка 6; 2 правая круглая скобка ,",
+      "x минус 2 = 6,",
+      "y минус 4 = 2,",
+      "x = 8,",
+      "y = 6."
+    ],
+    "answer": "Ответ: 6",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143479",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27725",
+    "figure_path": "data/figures/t2_c182/27725.svg"
+  },
+  {
+    "id": "27726",
+    "condition": "Вектор ⟦\\overrightarrowAB⟧ с началом в точке A (3; 6) имеет координаты (9; 3). Найдите сумму координат точки B .",
+    "solution": "Решение rule_info . Пусть координаты точки B равны x B и y B . Координаты вектора равны разности соответствующих координат его конца и начала. Следовательно, x B − 3 = 9, y B − 6 = 3. Откуда x B = 12, y B = 9. Поэтому сумма координат точки B равна 21. Ответ: 21. rule_body",
+    "formulas_raw": [],
+    "answer": "Ответ: 21",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143481",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27726",
+    "figure_path": "data/figures/t2_c182/27726.svg"
+  },
+  {
+    "id": "27727",
+    "condition": "Вектор ⟦\\overrightarrowAB⟧ с концом в точке B (5; 3) имеет координаты (3; 1). Найдите абсциссу точки ⟦A.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Координаты точки A вычисляются следующим образом: 5 − x = 3, 3 − y = 1. Откуда x = 2, y = 2. Ответ: 2. rule_body",
+    "formulas_raw": [],
+    "answer": "Ответ: 2",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143482",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27727",
+    "figure_path": "data/figures/t2_c182/27727.svg"
+  },
+  {
+    "id": "27728",
+    "condition": "Вектор ⟦\\overrightarrowAB⟧ с концом в точке B (5; 3) имеет координаты (3; 1). Найдите ординату точки ⟦A.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Координаты точки A вычисляются следующим образом: 5 − x = 3, 3 − y = 1. Откуда x = 2, y = 2. Ответ: 2. rule_body",
+    "formulas_raw": [],
+    "answer": "Ответ: 2",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143482",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27728",
+    "figure_path": "data/figures/t2_c182/27728.svg"
+  },
+  {
+    "id": "27729",
+    "condition": "Вектор ⟦\\overrightarrowAB⟧ с концом в точке B (5; 4) имеет координаты (3; 1). Найдите сумму координат точки ⟦A.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Координаты точки A вычисляются следующим образом: 5 − x = 3, 4 − y = 1. Откуда x = 2, y = 3. Поэтому сумма координат точки A равна 5. Ответ: 5. rule_body",
+    "formulas_raw": [],
+    "answer": "Ответ: 5",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143483",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27729",
+    "figure_path": "data/figures/t2_c182/27729.svg"
+  },
+  {
+    "id": "27730",
+    "condition": "Найдите сумму координат вектора ⟦\\overrightarrowa⟧ + ⟦\\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Находим: ⟦\\overrightarrowa= левая круглая скобка 2; 6 правая круглая скобка , \\overrightarrowb= левая круглая скобка 8; 4 правая круглая скобка .⟧ Координаты суммы векторов равны сумме соответствующих координат, поэтому ⟦\\overrightarrowa плюс \\overrightarrowb = левая круглая скобка 2 плюс 8; 6 плюс 4 правая круглая скобка = левая круглая скобка 10; 10 правая круглая скобка .⟧ Сумма координат вектора равна 20. Ответ: 20. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa= левая круглая скобка 2; 6 правая круглая скобка , \\overrightarrowb= левая круглая скобка 8; 4 правая круглая скобка .",
+      "\\overrightarrowa плюс \\overrightarrowb = левая круглая скобка 2 плюс 8; 6 плюс 4 правая круглая скобка = левая круглая скобка 10; 10 правая круглая скобка ."
+    ],
+    "answer": "Ответ: 20",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143484",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27730",
+    "figure_path": "data/figures/t2_c182/27730.svg"
+  },
+  {
+    "id": "27731",
+    "condition": "Найдите квадрат длины вектора ⟦\\overrightarrowa⟧ + ⟦\\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Координаты суммы векторов равны суммам соответствующих координат: ⟦\\overrightarrowa плюс \\overrightarrowb = левая круглая скобка 2;6 правая круглая скобка плюс левая круглая скобка 8;4 правая круглая скобка = левая круглая скобка 10;10 правая круглая скобка .⟧ Тогда для длины вектора суммы имеем: ⟦|\\overrightarrowa плюс \\overrightarrowb|= корень из: начало аргумента: 10 конец аргумента в квадрате плюс 10 в квадрате = корень из: начало аргумента: 200 конец аргумента .⟧ Квадрат длины вектора равен 200. Ответ: 200. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa плюс \\overrightarrowb = левая круглая скобка 2;6 правая круглая скобка плюс левая круглая скобка 8;4 правая круглая скобка = левая круглая скобка 10;10 правая круглая скобка .",
+      "|\\overrightarrowa плюс \\overrightarrowb|= корень из: начало аргумента: 10 конец аргумента в квадрате плюс 10 в квадрате = корень из: начало аргумента: 200 конец аргумента ."
+    ],
+    "answer": "Ответ: 200",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143484",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27731",
+    "figure_path": "data/figures/t2_c182/27731.svg"
+  },
+  {
+    "id": "27732",
+    "condition": "Найдите сумму координат вектора ⟦\\overrightarrowa минус \\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Имеем: ⟦\\overrightarrowa= левая круглая скобка 2;6 правая круглая скобка ,⟧ ⟦\\overrightarrowb= левая круглая скобка 8;4 правая круглая скобка ,⟧ поэтому ⟦\\overrightarrowa минус \\overrightarrowb= левая круглая скобка минус 6;2 правая круглая скобка .⟧ Сумма координат найденного вектора равна ⟦минус 6 плюс 2= минус 4.⟧ Ответ: −4. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa= левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\overrightarrowb= левая круглая скобка 8;4 правая круглая скобка ,",
+      "\\overrightarrowa минус \\overrightarrowb= левая круглая скобка минус 6;2 правая круглая скобка .",
+      "минус 6 плюс 2= минус 4."
+    ],
+    "answer": "Ответ: -4",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143484",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27732",
+    "figure_path": "data/figures/t2_c182/27732.svg"
+  },
+  {
+    "id": "27733",
+    "condition": "Найдите квадрат длины вектора ⟦\\overrightarrowa минус \\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Имеем: ⟦\\overrightarrowa= левая круглая скобка 2;6 правая круглая скобка ,⟧ ⟦\\overrightarrowb= левая круглая скобка 8;4 правая круглая скобка .⟧ Координаты разности векторов равны разности соответствующих координат, поэтому ⟦\\overrightarrowa минус \\overrightarrowb= левая круглая скобка минус 6;2 правая круглая скобка .⟧ Длина вектора ⟦|\\overrightarrowa минус \\overrightarrowb|= корень из: начало аргумента: 6 конец аргумента в квадрате плюс 2 в квадрате = корень из: начало аргумента: 40 конец аргумента .⟧ Поэтому квадрат длины вектора равен ⟦40.⟧ Ответ: 40. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa= левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\overrightarrowb= левая круглая скобка 8;4 правая круглая скобка .",
+      "\\overrightarrowa минус \\overrightarrowb= левая круглая скобка минус 6;2 правая круглая скобка .",
+      "|\\overrightarrowa минус \\overrightarrowb|= корень из: начало аргумента: 6 конец аргумента в квадрате плюс 2 в квадрате = корень из: начало аргумента: 40 конец аргумента .",
+      "40."
+    ],
+    "answer": "Ответ: 40",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143484",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27733",
+    "figure_path": "data/figures/t2_c182/27733.svg"
+  },
+  {
+    "id": "27734",
+    "condition": "Найдите скалярное произведение векторов ⟦\\overrightarrowa⟧ и ⟦\\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Выпишем координаты векторов: ⟦\\overrightarrowa= левая круглая скобка 2; 6 правая круглая скобка , \\overrightarrowb= левая круглая скобка 8; 4 правая круглая скобка .⟧ Скалярное произведение векторов равно ⟦\\overrightarrowa умножить на \\overrightarrowb правая круглая скобка =x_a умножить на x_b плюс y_a умножить на y_b=2 умножить на 8 плюс 6 умножить на 4=40.⟧ Ответ: 40. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa= левая круглая скобка 2; 6 правая круглая скобка , \\overrightarrowb= левая круглая скобка 8; 4 правая круглая скобка .",
+      "\\overrightarrowa умножить на \\overrightarrowb правая круглая скобка =x_a умножить на x_b плюс y_a умножить на y_b=2 умножить на 8 плюс 6 умножить на 4=40."
+    ],
+    "answer": "Ответ: 40",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143484",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27734",
+    "figure_path": "data/figures/t2_c182/27734.svg"
+  },
+  {
+    "id": "27735",
+    "condition": "Найдите угол между векторами ⟦\\overrightarrowa⟧ и ⟦\\overrightarrowb.⟧ Ответ дайте в градусах.",
+    "solution": "Решение rule_info . Скалярное произведение векторов равно ⟦\\overrightarrowa умножить на \\overrightarrowb=x_1 умножить на x_2 плюс y_1 умножить на y_2=2 умножить на 8 плюс 6 умножить на 4=40.⟧ С другой стороны, скалярное произведение двух векторов равно произведению их длин на косинус угла между ними. Найдем длины векторов ⟦\\overrightarrowa⟧ и ⟦\\overrightarrowb⟧ : ⟦a= корень из: начало аргумента: 2 конец аргумента в квадрате плюс 6 в квадрате = корень из: начало аргумента: 40 конец аргумента ,⟧ ⟦b= корень из: начало аргумента: 8 конец аргумента в квадрате плюс 4 в квадрате = корень из: начало аргумента: 80 конец аргумента .⟧ Тогда справедливо равенство: ⟦a умножить на b умножить на косинус альфа =40,⟧ откуда ⟦косинус альфа = дробь: числитель: корень из: начало аргумента: 2 конец аргумента , знаменатель: 2 конец дроби⟧ и ⟦альфа =45 градусов.⟧ Ответ: 45. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa умножить на \\overrightarrowb=x_1 умножить на x_2 плюс y_1 умножить на y_2=2 умножить на 8 плюс 6 умножить на 4=40.",
+      "\\overrightarrowa",
+      "\\overrightarrowb",
+      "a= корень из: начало аргумента: 2 конец аргумента в квадрате плюс 6 в квадрате = корень из: начало аргумента: 40 конец аргумента ,",
+      "b= корень из: начало аргумента: 8 конец аргумента в квадрате плюс 4 в квадрате = корень из: начало аргумента: 80 конец аргумента .",
+      "a умножить на b умножить на косинус альфа =40,",
+      "косинус альфа = дробь: числитель: корень из: начало аргумента: 2 конец аргумента , знаменатель: 2 конец дроби",
+      "альфа =45 градусов."
+    ],
+    "answer": "Ответ: 45",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143484",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27735",
+    "figure_path": "data/figures/t2_c182/27735.svg"
+  },
+  {
+    "id": "27736",
+    "condition": "Найдите сумму координат вектора ⟦\\overrightarrowa⟧ + ⟦\\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор ⟦\\veca⟧ имеет координаты ⟦левая круглая скобка 2;6 правая круглая скобка ,⟧ вектор ⟦\\vecb⟧ имеет координаты ⟦левая круглая скобка 8;4 правая круглая скобка .⟧ Координаты суммы векторов равны сумме соответствующих координат. Поэтому вектор ⟦\\veca плюс \\vecb⟧ имеет координаты ⟦левая круглая скобка 10;10 правая круглая скобка .⟧ Cумма его координат равна 20. Ответ: 20. rule_body",
+    "formulas_raw": [
+      "\\veca",
+      "левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\vecb",
+      "левая круглая скобка 8;4 правая круглая скобка .",
+      "\\veca плюс \\vecb",
+      "левая круглая скобка 10;10 правая круглая скобка ."
+    ],
+    "answer": "Ответ: 20",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143485",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27736",
+    "figure_path": "data/figures/t2_c182/27736.svg"
+  },
+  {
+    "id": "27737",
+    "condition": "Найдите квадрат длины вектора ⟦\\overrightarrowa⟧ + ⟦\\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор ⟦\\overrightarrowa~⟧ имеет координаты ⟦левая круглая скобка 2;6 правая круглая скобка ,⟧ вектор ⟦\\overrightarrowb~⟧ имеет координаты ⟦левая круглая скобка 8;4 правая круглая скобка .⟧ Координаты суммы векторов равны сумме соответствующих координат. Тогда вектор ⟦\\overrightarrowa плюс \\overrightarrowb⟧ имеет координаты ⟦левая круглая скобка 10;10 правая круглая скобка .⟧ Длина вектора ⟦\\overrightarrowa~ плюс \\overrightarrowb= корень из: начало аргумента: 10 конец аргумента в квадрате плюс 10 в квадрате = корень из: начало аргумента: 200 конец аргумента .⟧ Поэтому квадрат длины вектора равен ⟦200.⟧ Ответ: 200. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa~",
+      "левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\overrightarrowb~",
+      "левая круглая скобка 8;4 правая круглая скобка .",
+      "\\overrightarrowa плюс \\overrightarrowb",
+      "левая круглая скобка 10;10 правая круглая скобка .",
+      "\\overrightarrowa~ плюс \\overrightarrowb= корень из: начало аргумента: 10 конец аргумента в квадрате плюс 10 в квадрате = корень из: начало аргумента: 200 конец аргумента .",
+      "200."
+    ],
+    "answer": "Ответ: 200",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143485",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27737",
+    "figure_path": "data/figures/t2_c182/27737.svg"
+  },
+  {
+    "id": "27738",
+    "condition": "Найдите сумму координат вектора ⟦\\overrightarrowa минус \\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор ⟦\\overrightarrowa~⟧ имеет координаты ⟦левая круглая скобка 2;6 правая круглая скобка ,⟧ вектор ⟦\\overrightarrowb~⟧ имеет координаты ⟦левая круглая скобка 8;4 правая круглая скобка .⟧ Координаты разности векторов равны разности соответствующих координат. Тогда вектор ⟦\\overrightarrowa минус \\overrightarrowb⟧ имеет координаты ⟦левая круглая скобка минус 6;2 правая круглая скобка ,⟧ их сумма равна −4. Ответ: −4. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa~",
+      "левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\overrightarrowb~",
+      "левая круглая скобка 8;4 правая круглая скобка .",
+      "\\overrightarrowa минус \\overrightarrowb",
+      "левая круглая скобка минус 6;2 правая круглая скобка ,"
+    ],
+    "answer": "Ответ: -4",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143485",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27738",
+    "figure_path": "data/figures/t2_c182/27738.svg"
+  },
+  {
+    "id": "27739",
+    "condition": "Найдите квадрат длины вектора ⟦\\overrightarrowa минус \\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор ⟦\\overrightarrowa~⟧ имеет координаты ⟦левая круглая скобка 2;6 правая круглая скобка ,⟧ вектор ⟦\\overrightarrowb~⟧ имеет координаты ⟦левая круглая скобка 8;4 правая круглая скобка .⟧ Координаты разности векторов равны разности соответствующих координат. Поэтому вектор ⟦\\overrightarrowa минус \\overrightarrowb⟧ имеет координаты ⟦левая круглая скобка минус 6;2 правая круглая скобка .⟧ Длина вектора ⟦\\overrightarrowa минус \\overrightarrowb= корень из: начало аргумента: 6 конец аргумента в квадрате плюс 2 в квадрате = корень из: начало аргумента: 40 конец аргумента .⟧ Поэтому квадрат длины вектора равен ⟦40.⟧ Ответ: 40. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa~",
+      "левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\overrightarrowb~",
+      "левая круглая скобка 8;4 правая круглая скобка .",
+      "\\overrightarrowa минус \\overrightarrowb",
+      "левая круглая скобка минус 6;2 правая круглая скобка .",
+      "\\overrightarrowa минус \\overrightarrowb= корень из: начало аргумента: 6 конец аргумента в квадрате плюс 2 в квадрате = корень из: начало аргумента: 40 конец аргумента .",
+      "40."
+    ],
+    "answer": "Ответ: 40",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143485",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27739",
+    "figure_path": "data/figures/t2_c182/27739.svg"
+  },
+  {
+    "id": "27740",
+    "condition": "Найдите скалярное произведение векторов ⟦\\overrightarrowa⟧ и ⟦\\overrightarrowb.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор ⟦\\overrightarrowa~⟧ имеет координаты ⟦левая круглая скобка 2;6 правая круглая скобка ,⟧ вектор ⟦\\overrightarrowb~⟧ имеет координаты ⟦левая круглая скобка 8;4 правая круглая скобка .⟧ Скалярное произведение векторов равно: ⟦\\overrightarrowa \\overrightarrowb =x_a умножить на x_b плюс y_a умножить на y_b=2 умножить на 8 плюс 6 умножить на 4=40.⟧ Ответ: 40. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa~",
+      "левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\overrightarrowb~",
+      "левая круглая скобка 8;4 правая круглая скобка .",
+      "\\overrightarrowa \\overrightarrowb =x_a умножить на x_b плюс y_a умножить на y_b=2 умножить на 8 плюс 6 умножить на 4=40."
+    ],
+    "answer": "Ответ: 40",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143485",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27740",
+    "figure_path": "data/figures/t2_c182/27740.svg"
+  },
+  {
+    "id": "27741",
+    "condition": "Найдите угол между векторами ⟦\\overrightarrowa⟧ и ⟦\\overrightarrowb.⟧ Ответ дайте в градусах.",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор ⟦\\overrightarrowa~⟧ имеет координаты ⟦левая круглая скобка 2;6 правая круглая скобка ,⟧ вектор ⟦\\overrightarrowb~⟧ имеет координаты ⟦левая круглая скобка 8;4 правая круглая скобка .⟧ По определению скалярное произведение двух векторов равно произведению их длин на косинус угла между ними: ⟦\\overrightarrowa умножить на \\overrightarrowb = |\\overrightarrowa||\\overrightarrowb| косинус альфа ,⟧ откуда ⟦косинус альфа = дробь: числитель: \\overrightarrowa умножить на \\overrightarrowb, знаменатель: |\\overrightarrowa||\\overrightarrowb| конец дроби .⟧ Запишем скалярное произведение векторов в координатах: ⟦\\overrightarrowa умножить на \\overrightarrowb = x_1 умножить на x_2 плюс y_1 умножить на y_2=2 умножить на 8 плюс 6 умножить на 4=40.⟧ Найдем длины векторов: ⟦|\\overrightarrowa| = корень из: начало аргумента: 2 конец аргумента в квадрате плюс 6 в квадрате = корень из: начало аргумента: 40 конец аргумента ,⟧ ⟦|\\overrightarrowb| = корень из: начало аргумента: 8 конец аргумента в квадрате плюс 4 в квадрате = корень из: начало аргумента: 80 конец аргумента .⟧ Тогда ⟦косинус альфа = дробь: числитель: 40, знаменатель: корень из: начало аргумента: 40 конец аргумента умножить на корень из: начало аргумента: 80 конец аргумента конец дроби = дробь: числитель: 40, знаменатель: корень из: начало аргумента: 40 конец аргумента умножить на корень из: начало аргумента: 40 конец аргумента умножить на корень из: начало аргумента: 2 конец аргумента конец дроби = дробь: числитель: 1, знаменатель: конец дроби корень из: начало аргумента: 2 конец аргумента .⟧ Поскольку ⟦0 градусов меньше или равно альфа меньше или равно 180 градусов ,⟧ уравнение ⟦косинус альфа = дробь: числитель: 1, знаменатель: конец дроби корень из: начало аргумента: 2 конец аргумента⟧ имеет единственное решение: ⟦альфа =45 градусов.⟧ Ответ: 45. rule_body",
+    "formulas_raw": [
+      "\\overrightarrowa~",
+      "левая круглая скобка 2;6 правая круглая скобка ,",
+      "\\overrightarrowb~",
+      "левая круглая скобка 8;4 правая круглая скобка .",
+      "\\overrightarrowa умножить на \\overrightarrowb = |\\overrightarrowa||\\overrightarrowb| косинус альфа ,",
+      "косинус альфа = дробь: числитель: \\overrightarrowa умножить на \\overrightarrowb, знаменатель: |\\overrightarrowa||\\overrightarrowb| конец дроби .",
+      "\\overrightarrowa умножить на \\overrightarrowb = x_1 умножить на x_2 плюс y_1 умножить на y_2=2 умножить на 8 плюс 6 умножить на 4=40.",
+      "|\\overrightarrowa| = корень из: начало аргумента: 2 конец аргумента в квадрате плюс 6 в квадрате = корень из: начало аргумента: 40 конец аргумента ,",
+      "|\\overrightarrowb| = корень из: начало аргумента: 8 конец аргумента в квадрате плюс 4 в квадрате = корень из: начало аргумента: 80 конец аргумента .",
+      "косинус альфа = дробь: числитель: 40, знаменатель: корень из: начало аргумента: 40 конец аргумента умножить на корень из: начало аргумента: 80 конец аргумента конец дроби = дробь: числитель: 40, знаменатель: корень из: начало аргумента: 40 конец аргумента умножить на корень из: начало аргумента: 40 конец аргумента умножить на корень из: начало аргумента: 2 конец аргумента конец дроби = дробь: числитель: 1, знаменатель: конец дроби корень из: начало аргумента: 2 конец аргумента .",
+      "0 градусов меньше или равно альфа меньше или равно 180 градусов ,",
+      "косинус альфа = дробь: числитель: 1, знаменатель: конец дроби корень из: начало аргумента: 2 конец аргумента",
+      "альфа =45 градусов."
+    ],
+    "answer": "Ответ: 45",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=143485",
+    "url": "https://math-ege.sdamgia.ru/problem?id=27741",
+    "figure_path": "data/figures/t2_c182/27741.svg"
+  },
+  {
+    "id": "513334",
+    "condition": "Найдите длину диагонали прямоугольника, вершины которого имеют координаты (2; 1), (2; 4), (6; 1), (6; 4).",
+    "solution": "Решение rule_info . Для того чтобы найти диагональ прямоугольника, найдем длину ⟦a⟧ и ширину ⟦b⟧ : ⟦a=6 минус 2=4⟧ ⟦b=4 минус 1=3⟧ По теореме Пифагора (диагональ d является гипотенузой): ⟦d в квадрате =a в квадрате плюс b в квадрате =4 в квадрате плюс 3 в квадрате =16 плюс 9=25 равносильно d=5.⟧ Ответ: 5. rule_body",
+    "formulas_raw": [
+      "a",
+      "b",
+      "a=6 минус 2=4",
+      "b=4 минус 1=3",
+      "d в квадрате =a в квадрате плюс b в квадрате =4 в квадрате плюс 3 в квадрате =16 плюс 9=25 равносильно d=5."
+    ],
+    "answer": "Ответ: 5",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=513334"
+  },
+  {
+    "id": "644807",
+    "condition": "На координатной плоскости изображены векторы ⟦\\veca⟧ и ⟦\\vecb.⟧ Найдите скалярное произведение ⟦\\veca умножить на \\vecb.⟧",
+    "solution": "Решение rule_info . По рисунку определим координаты векторов: ⟦\\veca = левая круглая скобка 1; минус 3 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка 3; 2 правая круглая скобка .⟧ Скалярное произведение векторов равно: ⟦\\veca умножить на \\vecb=x_a умножить на x_b плюс y_a умножить на y_b=1 умножить на 3 плюс левая круглая скобка минус 3 правая круглая скобка умножить на 2= минус 3.⟧ Ответ: −3. rule_body",
+    "formulas_raw": [
+      "\\veca = левая круглая скобка 1; минус 3 правая круглая скобка ,",
+      "\\vecb = левая круглая скобка 3; 2 правая круглая скобка .",
+      "\\veca умножить на \\vecb=x_a умножить на x_b плюс y_a умножить на y_b=1 умножить на 3 плюс левая круглая скобка минус 3 правая круглая скобка умножить на 2= минус 3."
+    ],
+    "answer": "Ответ: -3",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=141978",
+    "url": "https://math-ege.sdamgia.ru/problem?id=644807",
+    "figure_path": "data/figures/t2_c182/644807.svg"
+  },
+  {
+    "id": "644820",
+    "condition": "На координатной плоскости изображены векторы ⟦\\veca,⟧ ⟦\\vecb⟧ и ⟦\\vecc.⟧ Вектор ⟦\\vecc⟧ разложен по двум неколлинеарным векторам ⟦\\veca⟧ и ⟦\\vecb:⟧ ⟦\\vecc=k \\veca плюс l\\vecb,⟧ где k и l — коэффициенты разложения. Найдите k .",
+    "solution": "Решение rule_info . По рисунку определим координаты векторов: ⟦\\veca = левая круглая скобка 1; 3 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка 2; 1 правая круглая скобка ,⟧ ⟦\\vecc = левая круглая скобка 5; 0 правая круглая скобка .⟧ Подставляя найденные координаты в равенство ⟦\\vecc=k \\veca плюс l\\vecb,⟧ получаем: ⟦\\vecc=k \\veca плюс l\\vecb = k левая круглая скобка 1; 3 правая круглая скобка плюс l левая круглая скобка 2; 1 правая круглая скобка = левая круглая скобка k; 3k правая круглая скобка плюс левая круглая скобка 2l; l правая круглая скобка = левая круглая скобка k плюс 2l; 3k плюс l правая круглая скобка .⟧ Зная, что ⟦\\vecc = левая круглая скобка 5; 0 правая круглая скобка ,⟧ находим: ⟦система выражений k плюс 2l = 5,3k плюс l = 0 конец системы . равносильно система выражений k минус 6k = 5,l= минус 3k конец системы . равносильно система выражений минус 5k = 5,l= минус 3k конец системы . равносильно система выражений k= минус 1,l=3. конец системы .⟧ Ответ: −1. rule_body",
+    "formulas_raw": [
+      "\\veca = левая круглая скобка 1; 3 правая круглая скобка ,",
+      "\\vecb = левая круглая скобка 2; 1 правая круглая скобка ,",
+      "\\vecc = левая круглая скобка 5; 0 правая круглая скобка .",
+      "\\vecc=k \\veca плюс l\\vecb,",
+      "\\vecc=k \\veca плюс l\\vecb = k левая круглая скобка 1; 3 правая круглая скобка плюс l левая круглая скобка 2; 1 правая круглая скобка = левая круглая скобка k; 3k правая круглая скобка плюс левая круглая скобка 2l; l правая круглая скобка = левая круглая скобка k плюс 2l; 3k плюс l правая круглая скобка .",
+      "\\vecc = левая круглая скобка 5; 0 правая круглая скобка ,",
+      "система выражений k плюс 2l = 5,3k плюс l = 0 конец системы . равносильно система выражений k минус 6k = 5,l= минус 3k конец системы . равносильно система выражений минус 5k = 5,l= минус 3k конец системы . равносильно система выражений k= минус 1,l=3. конец системы ."
+    ],
+    "answer": "Ответ: -1",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=141990",
+    "url": "https://math-ege.sdamgia.ru/problem?id=644820",
+    "figure_path": "data/figures/t2_c182/644820.svg"
+  },
+  {
+    "id": "644849",
+    "condition": "На координатной плоскости изображены векторы ⟦\\veca⟧ и ⟦\\vecb.⟧ Найдите скалярное произведение ⟦\\veca умножить на \\vecb.⟧",
+    "solution": "Решение rule_info . Выпишем координаты векторов: ⟦\\veca = левая круглая скобка 4; 6 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка 6; минус 2 правая круглая скобка .⟧ Скалярное произведение векторов равно: ⟦\\veca умножить на \\vecb =x_a умножить на x_b плюс y_a умножить на y_b= 4 умножить на 6 плюс 6 умножить на левая круглая скобка минус 2 правая круглая скобка = 24 минус 12 = 12.⟧ Ответ: 12. rule_body",
+    "formulas_raw": [
+      "\\veca = левая круглая скобка 4; 6 правая круглая скобка ,",
+      "\\vecb = левая круглая скобка 6; минус 2 правая круглая скобка .",
+      "\\veca умножить на \\vecb =x_a умножить на x_b плюс y_a умножить на y_b= 4 умножить на 6 плюс 6 умножить на левая круглая скобка минус 2 правая круглая скобка = 24 минус 12 = 12."
+    ],
+    "answer": "Ответ: 12",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=142469",
+    "url": "https://math-ege.sdamgia.ru/problem?id=644849",
+    "figure_path": "data/figures/t2_c182/644849.svg"
+  },
+  {
+    "id": "644850",
+    "condition": "Даны векторы ⟦\\veca = левая круглая скобка 1; 2 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка минус 3; 6 правая круглая скобка⟧ и ⟦\\vecc = левая круглая скобка 4; минус 2 правая круглая скобка .⟧ Найдите длину вектора ⟦\\veca минус \\vecb плюс \\vecc.⟧",
+    "solution": "Решение rule_info . Найдем координаты вектора ⟦\\veca минус \\vecb плюс \\vecc:⟧ ⟦\\veca минус \\vecb плюс \\vecc = левая круглая скобка 1 минус левая круглая скобка минус 3 правая круглая скобка плюс 4; 2 минус 6 минус 2 правая круглая скобка = левая круглая скобка 8; минус 6 правая круглая скобка .⟧ Длина вектора равна: ⟦|\\veca минус \\vecb плюс \\vecc| = корень из: начало аргумента: 8 в квадрате плюс левая круглая скобка минус 6 правая круглая скобка в квадрате конец аргумента = корень из: начало аргумента: 64 плюс 36 конец аргумента = 10.⟧ Ответ: 10. rule_body",
+    "formulas_raw": [
+      "\\veca минус \\vecb плюс \\vecc:",
+      "\\veca минус \\vecb плюс \\vecc = левая круглая скобка 1 минус левая круглая скобка минус 3 правая круглая скобка плюс 4; 2 минус 6 минус 2 правая круглая скобка = левая круглая скобка 8; минус 6 правая круглая скобка .",
+      "|\\veca минус \\vecb плюс \\vecc| = корень из: начало аргумента: 8 в квадрате плюс левая круглая скобка минус 6 правая круглая скобка в квадрате конец аргумента = корень из: начало аргумента: 64 плюс 36 конец аргумента = 10."
+    ],
+    "answer": "Ответ: 10",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=644850"
+  },
+  {
+    "id": "647124",
+    "condition": "Даны векторы ⟦\\veca = левая круглая скобка 1; 2 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка 3; минус 6 правая круглая скобка⟧ и ⟦\\vecc = левая круглая скобка 4; минус 3 правая круглая скобка .⟧ Найдите значение выражения ⟦левая круглая скобка \\veca плюс \\vecb правая круглая скобка умножить на \\vecc.⟧",
+    "solution": "Решение rule_info . Найдем координаты вектора ⟦\\veca плюс \\vecb:⟧ ⟦\\veca плюс \\vecb = левая круглая скобка 1 плюс 3; 2 минус 6 правая круглая скобка = левая круглая скобка 4; минус 4 правая круглая скобка .⟧ Скалярное произведение равно: ⟦левая круглая скобка \\veca плюс \\vecb правая круглая скобка умножить на \\vecc = 4 умножить на 4 минус 4 умножить на левая круглая скобка минус 3 правая круглая скобка =28.⟧ Ответ: 28. rule_body",
+    "formulas_raw": [
+      "\\veca плюс \\vecb:",
+      "\\veca плюс \\vecb = левая круглая скобка 1 плюс 3; 2 минус 6 правая круглая скобка = левая круглая скобка 4; минус 4 правая круглая скобка .",
+      "левая круглая скобка \\veca плюс \\vecb правая круглая скобка умножить на \\vecc = 4 умножить на 4 минус 4 умножить на левая круглая скобка минус 3 правая круглая скобка =28."
+    ],
+    "answer": "Ответ: 28",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=647124"
+  },
+  {
+    "id": "649593",
+    "condition": "На координатной плоскости изображены векторы ⟦\\veca,⟧ ⟦\\vecb⟧ и ⟦\\vecc.⟧ Найдите длину вектора ⟦\\veca плюс \\vecb плюс \\vecc.⟧",
+    "solution": "Решение rule_info . Координаты вектора равны разности координат конца вектора и его начала. Поэтому вектор ⟦\\veca⟧ имеет координаты (4; 6), вектор ⟦\\vecb⟧ имеет координаты (6; –2), вектор ⟦\\vecc⟧ имеет координаты (1; –4). Координаты суммы векторов равны сумме соответствующих координат, поэтому вектор ⟦\\veca плюс \\vecb плюс \\vecc⟧ имеет координаты (11; 0). Длина вектора ⟦\\veca плюс \\vecb плюс \\vecc⟧ равна ⟦корень из: начало аргумента: 11 в квадрате плюс 0 в квадрате конец аргумента = 11.⟧ Ответ: 11. rule_body",
+    "formulas_raw": [
+      "\\veca",
+      "\\vecb",
+      "\\vecc",
+      "\\veca плюс \\vecb плюс \\vecc",
+      "\\veca плюс \\vecb плюс \\vecc",
+      "корень из: начало аргумента: 11 в квадрате плюс 0 в квадрате конец аргумента = 11."
+    ],
+    "answer": "Ответ: 11",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=160451",
+    "url": "https://math-ege.sdamgia.ru/problem?id=649593",
+    "figure_path": "data/figures/t2_c182/649593.svg"
+  },
+  {
+    "id": "649891",
+    "condition": "Даны векторы ⟦\\veca левая круглая скобка 3; минус 2 правая круглая скобка⟧ и ⟦\\vecb левая круглая скобка 0; 1 правая круглая скобка .⟧ Найдите скалярное произведение ⟦\\vec a умножить на \\vec b.⟧",
+    "solution": "Решение rule_info . Скалярное произведение равно: ⟦\\vec a умножить на \\vec b = 3 умножить на 0 плюс левая круглая скобка минус 2 правая круглая скобка умножить на 1 = минус 2.⟧ Ответ: −2. rule_body",
+    "formulas_raw": [
+      "\\vec a умножить на \\vec b = 3 умножить на 0 плюс левая круглая скобка минус 2 правая круглая скобка умножить на 1 = минус 2."
+    ],
+    "answer": "Ответ: -2",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=649891"
+  },
+  {
+    "id": "649902",
+    "condition": "На координатной плоскости изображены векторы ⟦\\vec a,⟧ ⟦\\vec b⟧ и ⟦\\vec c.⟧ Найдите значение выражения ⟦левая круглая скобка \\vec a минус \\vec b правая круглая скобка умножить на \\vec c.⟧",
+    "solution": "Решение rule_info . Выпишем координаты векторов: ⟦\\vec a левая круглая скобка 2; 1 правая круглая скобка ,⟧ ⟦\\vec b левая круглая скобка минус 1; 4 правая круглая скобка ,⟧ ⟦\\vec c левая круглая скобка 5; минус 1 правая круглая скобка .⟧ Найдем координаты вектора ⟦\\vec a минус \\vec b:⟧ ⟦\\vec a минус \\vec b = левая круглая скобка 2 минус левая круглая скобка минус 1 правая круглая скобка ; 1 минус 4 правая круглая скобка = левая круглая скобка 3; минус 3 правая круглая скобка .⟧ Скалярное произведение равно: ⟦левая круглая скобка \\vec a минус \\vec b правая круглая скобка умножить на \\vec c = 3 умножить на 5 минус 3 умножить на левая круглая скобка минус 1 правая круглая скобка = 18.⟧ Ответ: 18. rule_body",
+    "formulas_raw": [
+      "\\vec a левая круглая скобка 2; 1 правая круглая скобка ,",
+      "\\vec b левая круглая скобка минус 1; 4 правая круглая скобка ,",
+      "\\vec c левая круглая скобка 5; минус 1 правая круглая скобка .",
+      "\\vec a минус \\vec b:",
+      "\\vec a минус \\vec b = левая круглая скобка 2 минус левая круглая скобка минус 1 правая круглая скобка ; 1 минус 4 правая круглая скобка = левая круглая скобка 3; минус 3 правая круглая скобка .",
+      "левая круглая скобка \\vec a минус \\vec b правая круглая скобка умножить на \\vec c = 3 умножить на 5 минус 3 умножить на левая круглая скобка минус 1 правая круглая скобка = 18."
+    ],
+    "answer": "Ответ: 18",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=165016",
+    "url": "https://math-ege.sdamgia.ru/problem?id=649902",
+    "figure_path": "data/figures/t2_c182/649902.svg"
+  },
+  {
+    "id": "649905",
+    "condition": "На координатной плоскости изображены векторы ⟦\\veca⟧ и ⟦\\vecb.⟧ Найдите длину вектора ⟦2 \\veca минус \\vecb.⟧",
+    "solution": "Решение rule_info . Выпишем координаты векторов: ⟦\\veca левая круглая скобка 1; минус 1 правая круглая скобка⟧ и ⟦\\vecb левая круглая скобка минус 2; 1 правая круглая скобка .⟧ Найдем координаты вектора ⟦2 \\veca минус \\vecb:⟧ ⟦2 \\veca минус \\vecb = левая круглая скобка 2 умножить на 1 минус левая круглая скобка минус 2 правая круглая скобка ; 2 умножить на левая круглая скобка минус 1 правая круглая скобка минус 1 правая круглая скобка = левая круглая скобка 4; минус 3 правая круглая скобка .⟧ Найдем длину вектора: ⟦|2 \\veca минус \\vecb| = корень из: начало аргумента: 4 в квадрате плюс левая круглая скобка минус 3 правая круглая скобка в квадрате конец аргумента = 5.⟧ Ответ: 5. rule_body",
+    "formulas_raw": [
+      "\\veca левая круглая скобка 1; минус 1 правая круглая скобка",
+      "\\vecb левая круглая скобка минус 2; 1 правая круглая скобка .",
+      "2 \\veca минус \\vecb:",
+      "2 \\veca минус \\vecb = левая круглая скобка 2 умножить на 1 минус левая круглая скобка минус 2 правая круглая скобка ; 2 умножить на левая круглая скобка минус 1 правая круглая скобка минус 1 правая круглая скобка = левая круглая скобка 4; минус 3 правая круглая скобка .",
+      "|2 \\veca минус \\vecb| = корень из: начало аргумента: 4 в квадрате плюс левая круглая скобка минус 3 правая круглая скобка в квадрате конец аргумента = 5."
+    ],
+    "answer": "Ответ: 5",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=160455",
+    "url": "https://math-ege.sdamgia.ru/problem?id=649905",
+    "figure_path": "data/figures/t2_c182/649905.svg"
+  },
+  {
+    "id": "649909",
+    "condition": "Длины векторов ⟦\\vec a⟧ и ⟦\\vec b⟧ равны ⟦2 корень из 3⟧ и 5, а угол между ними равен 150°. Найдите скалярное произведение ⟦\\vec a умножить на \\vec b.⟧",
+    "solution": "Решение rule_info . Скалярное произведение равно ⟦\\vec a умножить на \\vec b = косинус 150 градусов умножить на |\\vec a| умножить на |\\vec b| = минус дробь: числитель: корень из 3 , знаменатель: 2 конец дроби умножить на 2 корень из 3 умножить на 5 = минус 15.⟧ Ответ: −15. rule_body",
+    "formulas_raw": [
+      "\\vec a умножить на \\vec b = косинус 150 градусов умножить на |\\vec a| умножить на |\\vec b| = минус дробь: числитель: корень из 3 , знаменатель: 2 конец дроби умножить на 2 корень из 3 умножить на 5 = минус 15."
+    ],
+    "answer": "Ответ: -15",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=649909"
+  },
+  {
+    "id": "649915",
+    "condition": "Даны векторы ⟦\\vec a левая круглая скобка 3; 4 правая круглая скобка⟧ и ⟦\\vec b левая круглая скобка минус 4; минус 3 правая круглая скобка .⟧ Найдите косинус угла между ними.",
+    "solution": "Решение rule_info . Косинус угла между векторами равен ⟦косинус \\widehat\\vec a, \\vec b = дробь: числитель: \\vec a умножить на \\vec b, знаменатель: |\\vec a| умножить на |\\vec b| конец дроби = дробь: числитель: 3 умножить на левая круглая скобка минус 4 правая круглая скобка плюс 4 умножить на левая круглая скобка минус 3 правая круглая скобка , знаменатель: корень из: начало аргумента: 3 в квадрате плюс 4 в квадрате конец аргумента умножить на корень из: начало аргумента: левая круглая скобка минус 4 правая круглая скобка в квадрате плюс левая круглая скобка минус 3 правая круглая скобка в квадрате конец аргумента конец дроби = минус дробь: числитель: 24, знаменатель: 25 конец дроби = минус 0,96.⟧ Ответ: −0,96. rule_body",
+    "formulas_raw": [
+      "косинус \\widehat\\vec a, \\vec b = дробь: числитель: \\vec a умножить на \\vec b, знаменатель: |\\vec a| умножить на |\\vec b| конец дроби = дробь: числитель: 3 умножить на левая круглая скобка минус 4 правая круглая скобка плюс 4 умножить на левая круглая скобка минус 3 правая круглая скобка , знаменатель: корень из: начало аргумента: 3 в квадрате плюс 4 в квадрате конец аргумента умножить на корень из: начало аргумента: левая круглая скобка минус 4 правая круглая скобка в квадрате плюс левая круглая скобка минус 3 правая круглая скобка в квадрате конец аргумента конец дроби = минус дробь: числитель: 24, знаменатель: 25 конец дроби = минус 0,96."
+    ],
+    "answer": "Ответ: -0,96",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=649915"
+  },
+  {
+    "id": "649917",
+    "condition": "На координатной плоскости изображены векторы ⟦\\vec a⟧ и ⟦\\vec b.⟧ Найдите косинус угла между ними.",
+    "solution": "Решение rule_info . Выпишем координаты векторов: ⟦\\vec a левая круглая скобка 3; минус 4 правая круглая скобка ,⟧ ⟦\\vec b левая круглая скобка 4; минус 3 правая круглая скобка .⟧ Косинус угла между векторами равен ⟦косинус \\widehat\\vec a, \\vec b = дробь: числитель: \\vec a умножить на \\vec b, знаменатель: |\\vec a| умножить на |\\vec b| конец дроби = дробь: числитель: 3 умножить на 4 плюс левая круглая скобка минус 4 правая круглая скобка умножить на левая круглая скобка минус 3 правая круглая скобка , знаменатель: корень из: начало аргумента: 3 в квадрате плюс левая круглая скобка минус 4 правая круглая скобка в квадрате конец аргумента умножить на корень из: начало аргумента: 4 в квадрате плюс левая круглая скобка минус 3 правая круглая скобка в квадрате конец аргумента конец дроби = дробь: числитель: 24, знаменатель: 25 конец дроби = 0,96.⟧ Ответ: 0,96. rule_body",
+    "formulas_raw": [
+      "\\vec a левая круглая скобка 3; минус 4 правая круглая скобка ,",
+      "\\vec b левая круглая скобка 4; минус 3 правая круглая скобка .",
+      "косинус \\widehat\\vec a, \\vec b = дробь: числитель: \\vec a умножить на \\vec b, знаменатель: |\\vec a| умножить на |\\vec b| конец дроби = дробь: числитель: 3 умножить на 4 плюс левая круглая скобка минус 4 правая круглая скобка умножить на левая круглая скобка минус 3 правая круглая скобка , знаменатель: корень из: начало аргумента: 3 в квадрате плюс левая круглая скобка минус 4 правая круглая скобка в квадрате конец аргумента умножить на корень из: начало аргумента: 4 в квадрате плюс левая круглая скобка минус 3 правая круглая скобка в квадрате конец аргумента конец дроби = дробь: числитель: 24, знаменатель: 25 конец дроби = 0,96."
+    ],
+    "answer": "Ответ: 0,96",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=160457",
+    "url": "https://math-ege.sdamgia.ru/problem?id=649917",
+    "figure_path": "data/figures/t2_c182/649917.svg"
+  },
+  {
+    "id": "649918",
+    "condition": "Длина вектора ⟦\\vec a⟧ равна ⟦2 корень из 2 ,⟧ угол между векторами ⟦\\vec a⟧ и ⟦\\vec b⟧ равен 45°, а скалярное произведение ⟦\\vec a умножить на \\vec b⟧ равно 12. Найдите длину вектора ⟦\\vec b.⟧",
+    "solution": "Решение rule_info . Длина вектора ⟦\\vec b⟧ равна ⟦|\\vec b| = дробь: числитель: \\vec a умножить на \\vec b, знаменатель: косинус \\widehat\\vec a, \\vec b умножить на |\\vec a| конец дроби = дробь: числитель: 12, знаменатель: дробь: числитель: корень из 2 , знаменатель: 2 конец дроби умножить на 2 корень из 2 конец дроби = 6.⟧ Ответ: 6. rule_body",
+    "formulas_raw": [
+      "\\vec b",
+      "|\\vec b| = дробь: числитель: \\vec a умножить на \\vec b, знаменатель: косинус \\widehat\\vec a, \\vec b умножить на |\\vec a| конец дроби = дробь: числитель: 12, знаменатель: дробь: числитель: корень из 2 , знаменатель: 2 конец дроби умножить на 2 корень из 2 конец дроби = 6."
+    ],
+    "answer": "Ответ: 6",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=649918"
+  },
+  {
+    "id": "654449",
+    "condition": "В прямоугольном треугольнике ABC катет AC равен ⟦корень из: начало аргумента: 3 конец аргумента .⟧ Найдите скалярное произведение ⟦\\overrightarrowAB умножить на \\overrightarrowAC.⟧",
+    "solution": "Решение rule_info . Пусть угол между катетом AC и гипотенузой AB равен α, тогда ⟦AB = дробь: числитель: AC, знаменатель: косинус альфа конец дроби .⟧ По определению скалярного произведения получаем: ⟦\\overrightarrowAB умножить на \\overrightarrowAC = AB умножить на AC умножить на косинус альфа = дробь: числитель: AC, знаменатель: косинус альфа конец дроби умножить на AC косинус альфа = AC в квадрате = 3.⟧ Ответ: 3. rule_body",
+    "formulas_raw": [
+      "AB = дробь: числитель: AC, знаменатель: косинус альфа конец дроби .",
+      "\\overrightarrowAB умножить на \\overrightarrowAC = AB умножить на AC умножить на косинус альфа = дробь: числитель: AC, знаменатель: косинус альфа конец дроби умножить на AC косинус альфа = AC в квадрате = 3."
+    ],
+    "answer": "Ответ: 3",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=138129",
+    "url": "https://math-ege.sdamgia.ru/problem?id=654449",
+    "figure_path": "data/figures/t2_c182/654449.svg"
+  },
+  {
+    "id": "654451",
+    "condition": "На клетчатой бумаге с размером клетки ⟦1\\times 1⟧ изображен треугольник ABC . Найдите скалярное произведение ⟦\\overrightarrowAB умножить на \\overrightarrowAC.⟧",
+    "solution": "Решение rule_info . Найдем стороны треугольника по теореме Пифагора (см. рис.), получим: ⟦AC = корень из 5 ,⟧ ⟦BC = корень из: начало аргумента: 20 конец аргумента ,⟧ ⟦AB = 5.⟧ Квадрат большей стороны равен сумме квадратов меньших сторон, поэтому по теореме, обратной теореме Пифагора, треугольник ABC — прямоугольный. Пусть угол между катетом AC и гипотенузой AB равен α, тогда ⟦AB = дробь: числитель: AC, знаменатель: косинус альфа конец дроби .⟧ По определению скалярного произведения получаем: ⟦\\overrightarrowAB умножить на \\overrightarrowAC = AB умножить на AC умножить на косинус альфа = дробь: числитель: AC, знаменатель: косинус альфа конец дроби умножить на AC косинус альфа = AC в квадрате = 5.⟧ Ответ: 5. Приведём решение, которое предложил Вячеслав Стражец: Введём систему координат как показано на рисунке. Определим координаты векторов ⟦\\overrightarrowAB⟧ и ⟦\\overrightarrowAC:⟧ ⟦\\overrightarrowAB= левая круглая скобка 4; 3 правая круглая скобка ,⟧ ⟦\\overrightarrowAC= левая круглая скобка 2; минус 1 правая круглая скобка .⟧ Найдём скалярное произведение векторов через их координаты: ⟦\\overrightarrowAB умножить на \\overrightarrowAC = 4 умножить на 2 плюс 3 умножить на левая круглая скобка минус 1 правая круглая скобка =5.⟧ rule_body",
+    "formulas_raw": [
+      "AC = корень из 5 ,",
+      "BC = корень из: начало аргумента: 20 конец аргумента ,",
+      "AB = 5.",
+      "AB = дробь: числитель: AC, знаменатель: косинус альфа конец дроби .",
+      "\\overrightarrowAB умножить на \\overrightarrowAC = AB умножить на AC умножить на косинус альфа = дробь: числитель: AC, знаменатель: косинус альфа конец дроби умножить на AC косинус альфа = AC в квадрате = 5.",
+      "\\overrightarrowAB",
+      "\\overrightarrowAC:",
+      "\\overrightarrowAB= левая круглая скобка 4; 3 правая круглая скобка ,",
+      "\\overrightarrowAC= левая круглая скобка 2; минус 1 правая круглая скобка .",
+      "\\overrightarrowAB умножить на \\overrightarrowAC = 4 умножить на 2 плюс 3 умножить на левая круглая скобка минус 1 правая круглая скобка =5."
+    ],
+    "answer": "Ответ: 5",
+    "figure_url": "https://math-ege.sdamgia.ru/get_file?id=164817",
+    "url": "https://math-ege.sdamgia.ru/problem?id=654451",
+    "figure_path": "data/figures/t2_c182/654451.svg"
+  },
+  {
+    "id": "660709",
+    "condition": "Даны векторы ⟦\\veca = левая круглая скобка 17; 0 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка минус 1; 1 правая круглая скобка .⟧ Найдите длину вектора ⟦\\veca плюс 12\\vecb.⟧",
+    "solution": "Решение rule_info . Найдем координаты вектора ⟦\\veca плюс 12\\vecb:⟧ ⟦\\veca плюс 12\\vecb = левая круглая скобка 17 плюс 12 умножить на левая круглая скобка минус 1 правая круглая скобка ; 0 плюс 12 умножить на 1 правая круглая скобка = левая круглая скобка 5; 12 правая круглая скобка .⟧ Длина вектора равна: ⟦|\\veca плюс 12\\vecb| = корень из: начало аргумента: 5 в квадрате плюс 12 в квадрате конец аргумента = корень из: начало аргумента: 25 плюс 144 конец аргумента = 13.⟧ Ответ: 13. rule_body",
+    "formulas_raw": [
+      "\\veca плюс 12\\vecb:",
+      "\\veca плюс 12\\vecb = левая круглая скобка 17 плюс 12 умножить на левая круглая скобка минус 1 правая круглая скобка ; 0 плюс 12 умножить на 1 правая круглая скобка = левая круглая скобка 5; 12 правая круглая скобка .",
+      "|\\veca плюс 12\\vecb| = корень из: начало аргумента: 5 в квадрате плюс 12 в квадрате конец аргумента = корень из: начало аргумента: 25 плюс 144 конец аргумента = 13."
+    ],
+    "answer": "Ответ: 13",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=660709"
+  },
+  {
+    "id": "661774",
+    "condition": "Даны векторы ⟦\\veca = левая круглая скобка 3; 3 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка 7; 8 правая круглая скобка⟧ и ⟦\\vecc = левая круглая скобка 13; 29 правая круглая скобка .⟧ Найдите сумму координат вектора ⟦\\veca плюс \\vecb минус \\vecc.⟧",
+    "solution": "Решение rule_info . Найдем координаты вектора ⟦\\veca плюс \\vecb минус \\vecc:⟧ ⟦\\veca плюс \\vecb минус \\vecc = левая круглая скобка 3 плюс 7 минус 13; 3 плюс 8 минус 29 правая круглая скобка = левая круглая скобка минус 3; минус 18 правая круглая скобка .⟧ Сумма координат вектора ⟦\\veca плюс \\vecb минус \\vecc⟧ равна ⟦минус 3 плюс левая круглая скобка минус 18 правая круглая скобка = минус 21.⟧ Ответ: − 21. rule_body",
+    "formulas_raw": [
+      "\\veca плюс \\vecb минус \\vecc:",
+      "\\veca плюс \\vecb минус \\vecc = левая круглая скобка 3 плюс 7 минус 13; 3 плюс 8 минус 29 правая круглая скобка = левая круглая скобка минус 3; минус 18 правая круглая скобка .",
+      "\\veca плюс \\vecb минус \\vecc",
+      "минус 3 плюс левая круглая скобка минус 18 правая круглая скобка = минус 21."
+    ],
+    "answer": "Ответ: -21",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=661774"
+  },
+  {
+    "id": "670261",
+    "condition": "Даны векторы ⟦\\vec a левая круглая скобка минус 10; 3 правая круглая скобка ,⟧ ⟦\\vec b левая круглая скобка минус 1; минус 6 правая круглая скобка⟧ и ⟦\\vec c левая круглая скобка минус 2; 6 правая круглая скобка .⟧ Найдите скалярное произведение векторов ⟦\\vec a плюс \\vec b⟧ и ⟦\\vec c.⟧",
+    "solution": "Решение rule_info . Найдем координаты вектора ⟦\\vec a плюс \\vec b:⟧ ⟦\\vec a плюс \\vec b = левая круглая скобка минус 10; 3 правая круглая скобка плюс левая круглая скобка минус 1; минус 6 правая круглая скобка = левая круглая скобка минус 11; минус 3 правая круглая скобка .⟧ Найдем скалярное произведение векторов ⟦\\vec a плюс \\vec b⟧ и ⟦\\vec c:⟧ ⟦левая круглая скобка \\vec a плюс \\vec b правая круглая скобка умножить на \\vec c = минус 11 умножить на левая круглая скобка минус 2 правая круглая скобка плюс левая круглая скобка минус 3 правая круглая скобка умножить на 6 = 22 минус 18 = 4.⟧ Ответ: 4. rule_body",
+    "formulas_raw": [
+      "\\vec a плюс \\vec b:",
+      "\\vec a плюс \\vec b = левая круглая скобка минус 10; 3 правая круглая скобка плюс левая круглая скобка минус 1; минус 6 правая круглая скобка = левая круглая скобка минус 11; минус 3 правая круглая скобка .",
+      "\\vec a плюс \\vec b",
+      "\\vec c:",
+      "левая круглая скобка \\vec a плюс \\vec b правая круглая скобка умножить на \\vec c = минус 11 умножить на левая круглая скобка минус 2 правая круглая скобка плюс левая круглая скобка минус 3 правая круглая скобка умножить на 6 = 22 минус 18 = 4."
+    ],
+    "answer": "Ответ: 4",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=670261"
+  },
+  {
+    "id": "672734",
+    "condition": "Найдите длину вектора ⟦3\\vec a,⟧ если ⟦\\vec a левая круглая скобка минус 8; 6 правая круглая скобка .⟧",
+    "solution": "Решение rule_info . Найдем координаты вектора ⟦3\\vec a:⟧ ⟦3\\vec a = левая круглая скобка минус 8 умножить на 3; 6 умножить на 3 правая круглая скобка = левая круглая скобка минус 24; 18 правая круглая скобка .⟧ Длина вектора ⟦3\\vec a⟧ равна ⟦|3\\vec a| = корень из: начало аргумента: левая круглая скобка минус 24 правая круглая скобка в квадрате плюс 18 в квадрате конец аргумента = корень из: начало аргумента: 576 плюс 324 конец аргумента = корень из: начало аргумента: 900 конец аргумента = 30.⟧ Ответ: 30. rule_body",
+    "formulas_raw": [
+      "3\\vec a:",
+      "3\\vec a = левая круглая скобка минус 8 умножить на 3; 6 умножить на 3 правая круглая скобка = левая круглая скобка минус 24; 18 правая круглая скобка .",
+      "3\\vec a",
+      "|3\\vec a| = корень из: начало аргумента: левая круглая скобка минус 24 правая круглая скобка в квадрате плюс 18 в квадрате конец аргумента = корень из: начало аргумента: 576 плюс 324 конец аргумента = корень из: начало аргумента: 900 конец аргумента = 30."
+    ],
+    "answer": "Ответ: 30",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=672734"
+  },
+  {
+    "id": "680501",
+    "condition": "Даны векторы ⟦\\veca = левая круглая скобка 2; 1 правая круглая скобка ,⟧ ⟦\\vecb = левая круглая скобка 2; минус 4 правая круглая скобка .⟧ Найдите скалярное произведение векторов ⟦\\vec a плюс \\vecb⟧ и ⟦7\\veca минус \\vecb.⟧",
+    "solution": "Решение rule_info . Найдем: ⟦\\veca плюс \\vecb = левая круглая скобка 2 плюс 2; 1 минус 4 правая круглая скобка = левая круглая скобка 4; минус 3 правая круглая скобка ,⟧ ⟦7 \\veca минус \\vecb = левая круглая скобка 7 умножить на 2 минус 2; 7 умножить на 1 плюс 4 правая круглая скобка = левая круглая скобка 12; 11 правая круглая скобка ,⟧ ⟦левая круглая скобка \\veca плюс \\vecb правая круглая скобка левая круглая скобка 7 \\veca минус \\vecb правая круглая скобка = 4 умножить на 12 минус 3 умножить на 11 = 15.⟧ Ответ: 15. rule_body",
+    "formulas_raw": [
+      "\\veca плюс \\vecb = левая круглая скобка 2 плюс 2; 1 минус 4 правая круглая скобка = левая круглая скобка 4; минус 3 правая круглая скобка ,",
+      "7 \\veca минус \\vecb = левая круглая скобка 7 умножить на 2 минус 2; 7 умножить на 1 плюс 4 правая круглая скобка = левая круглая скобка 12; 11 правая круглая скобка ,",
+      "левая круглая скобка \\veca плюс \\vecb правая круглая скобка левая круглая скобка 7 \\veca минус \\vecb правая круглая скобка = 4 умножить на 12 минус 3 умножить на 11 = 15."
+    ],
+    "answer": "Ответ: 15",
+    "figure_url": null,
+    "url": "https://math-ege.sdamgia.ru/problem?id=680501"
+  }
+]
