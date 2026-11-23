@@ -289,6 +289,19 @@ def wrap_draw(c: canvas.Canvas, fig: str, x: float, y: float, w: float, h: float
         _box3d(c, x + 8, y + 12, w * 0.55, h * 0.45, 10)
         _box3d(c, x + w * 0.38, y + h * 0.38, w * 0.45, h * 0.42, 10)
 
+    elif fig == "prob":
+        c.setFillColor(Color(0.82, 0.90, 1, alpha=0.9))
+        c.roundRect(x + 10, cy - 8, w - 20, 22, 4, stroke=1, fill=1)
+        c.line(x + 16, cy + 2, x + w - 16, cy + 2)
+        _label(c, "m", cx - 4, cy + 6)
+        _label(c, "n", cx - 4, cy - 16)
+        c.setFillColor(BLUE)
+        c.circle(x + 18, y + 14, 7, stroke=1, fill=1)
+        c.circle(x + w - 18, y + 14, 7, stroke=1, fill=1)
+        c.setFillColor(white)
+        _label(c, "1", x + 15, y + 10)
+        _label(c, "2", x + w - 21, y + 10)
+
     elif fig == "combo":
         c.ellipse(x + 20, y + h - 26, x + w - 20, y + h - 10, stroke=1, fill=0)
         c.ellipse(x + 20, y + 12, x + w - 20, y + 28, stroke=1, fill=0)
@@ -446,7 +459,7 @@ def build(out: Path) -> None:
     c.drawString(margin, H - 35 * mm, "ЕГЭ · Навигатор формул")
     c.setFont("DejaVu", 12)
     c.setFillColor(INK)
-    c.drawString(margin, H - 45 * mm, "№1 Планиметрия · №2 Векторы · №3 Стереометрия")
+    c.drawString(margin, H - 45 * mm, "№1 Планиметрия · №2 Векторы · №3 Стереометрия · №4 Вероятность")
     c.setFont("DejaVu", 10)
     lines = [
         "Как пользоваться:",
@@ -457,7 +470,7 @@ def build(out: Path) -> None:
         "5) Подставил — решил",
         "",
         "У каждой формулы своё ЕСЛИ: при каких данных её брать.",
-        "Формулы из всех 643 решений банка Решу ЕГЭ (№1–3).",
+        "Формулы из решений банка Решу ЕГЭ: №1–3 и №4, классическая вероятность.",
     ]
     yy = H - 60 * mm
     for line in lines:
@@ -550,6 +563,7 @@ def _nav_targets():
         ("№1. Планиметрия", "№1"),
         ("№2. Векторы", "№2"),
         ("№3. Стереометрия", "№3"),
+        ("№4. Вероятность", "№4"),
     )
     first = {}
     for i, card in enumerate(CARDS):
