@@ -99,19 +99,97 @@ def build_one(task: dict, problems: list[dict], path: Path) -> None:
     doc.build(story)
 
 
+def merge_all(catalog: list[dict], counts: dict[int, int]) -> Path:
+    """Один PDF: обложка, затем задания 1–27, у каждого своя закладка."""
+    from pypdf import PdfReader, PdfWriter
+
+    st = styles()
+    pieces = []
+    for task in catalog:
+        path = OUT / f"t{task['task']:02d}.pdf"
+        reader = PdfReader(str(path))
+        pieces.append((task, reader, len(reader.pages)))
+
+    # Сначала считаем, с какой страницы начнётся каждый тип. Обложка — страница 1.
+    starts = []
+    page = 2
+    for task, _reader, n_pages in pieces:
+        starts.append(page)
+        page += n_pages
+
+    cover = OUT / "_cover.pdf"
+    story = [
+        para("ЕГЭ. Русский язык", st["h"]),
+        Spacer(1, 2 * mm),
+        para("Все задания 1–27 в одном файле. Закладка слева открывает нужный тип.", st["sub"]),
+        Spacer(1, 4 * mm),
+    ]
+    for (task, _reader, n_pages), start in zip(pieces, starts):
+        n = counts.get(task["task"], 0)
+        story.append(
+            para(
+                f"{task['task']:02d}. {task['title']} — {n} задач, страница {start}",
+                st["body"],
+            )
+        )
+    doc = BaseDocTemplate(
+        str(cover),
+        pagesize=A4,
+        leftMargin=16 * mm,
+        rightMargin=16 * mm,
+        topMargin=16 * mm,
+        bottomMargin=16 * mm,
+        title="ЕГЭ русский, задания 1–27",
+    )
+    frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height, id="c", showBoundary=0)
+    doc.addPageTemplates([PageTemplate(id="cover", frames=[frame])])
+    doc.build(story)
+
+    writer = PdfWriter()
+    writer.add_page(PdfReader(str(cover)).pages[0])
+    writer.add_outline_item(title="Содержание", page_number=0)
+    for (task, reader, _n), start in zip(pieces, starts):
+        for pdf_page in reader.pages:
+            writer.add_page(pdf_page)
+        writer.add_outline_item(title=f"{task['task']:02d}. {task['title']}", page_number=start - 1)
+    writer.add_metadata({"/Title": "ЕГЭ. Русский язык. Задания 1–27"})
+
+    out = OUT / "ege_russkij_1-27.pdf"
+    with out.open("wb") as fh:
+        writer.write(fh)
+    cover.unlink(missing_ok=True)
+    return out
+
+
 def main() -> None:
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--merge-only", action="store_true", help="Склеить уже собранные t01–t27")
+    args = parser.parse_args()
+
     catalog = json.loads((DATA / "catalog.json").read_text(encoding="utf-8"))
     OUT.mkdir(parents=True, exist_ok=True)
-    lines = ["ЕГЭ по русскому языку. Отдельный PDF на каждый тип задания 1–27.", ""]
+    lines = [
+        "ЕГЭ по русскому языку. Все типы в одном файле: ege_russkij_1-27.pdf.",
+        "Отдельный PDF на каждый тип тоже лежит рядом: t01.pdf … t27.pdf.",
+        "",
+    ]
+    counts: dict[int, int] = {}
     for task in catalog:
         src = DATA / f"t{task['task']:02d}.json"
         problems = json.loads(src.read_text(encoding="utf-8"))
+        counts[task["task"]] = len(problems)
         path = OUT / f"t{task['task']:02d}.pdf"
-        build_one(task, problems, path)
+        if not args.merge_only:
+            build_one(task, problems, path)
+            print(f"{path.name} {len(problems)} {path.stat().st_size}")
         lines.append(f"{task['task']:02d}. {task['title']} — {len(problems)} задач — {path.name}")
-        print(f"{path.name} {len(problems)} {path.stat().st_size}")
+    merged = merge_all(catalog, counts)
+    lines.append("")
+    lines.append(f"Общий файл: {merged.name}")
     (OUT / "index.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
-    print(OUT / "index.txt")
+    print(merged, merged.stat().st_size)
 
 
 if __name__ == "__main__":
